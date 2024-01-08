@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite  simple App/Budget v1.0
 
 
 hey boys I made a little app to follow up your bills or expenses, from a budget you will start to decrease according to your expenses. 
