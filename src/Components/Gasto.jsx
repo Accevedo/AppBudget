@@ -15,7 +15,7 @@ import PlataformaDigital from '../IMG/icons8-música-de-youtube-80.png'
 import Comida from '../IMG/icons8-comida-80.png'
 import GastosMensuales from '../IMG/icons8-deuda-80.png' 
 import Vet from  '../IMG/icons8-carrier-80.png' 
-const Gasto = ({gasto, setgasto, eliminarGasto}) => {
+const Gasto = ({gasto, eliminarGasto}) => {
 
     const {Nombre, Cantidad, Categoria, ID} = gasto
     
@@ -61,7 +61,7 @@ const Gasto = ({gasto, setgasto, eliminarGasto}) => {
     leadingActions={leadingActions()}
     trailingActions={trailingActions()}
   >
-       <div className='flexboxAbuelo flex justify-between w-full gap-9 mt-11 pb-5'>
+       <div className='flex justify-between gap-9 mt-11 pb-5 w-1/2 m-auto'>
             <div className='flexboxPapa flex gap-9 content-center'>
                 <img src={imagenesIconos[Categoria]} alt="" />
                 <div className='  klk'>

@@ -72,11 +72,11 @@ useEffect(()=> {
                    {" "} Presupuesto:{formatearPresupuesto(presupuesto)}
                 </p>
                 <p 
-                    className=' text-orange-100 font-bold text-2xl mb-5'>
+                    className=' text-slate-100 font-bold text-2xl mb-5'>
                     Disponible:{formatearPresupuesto(Disponible)}
                 </p>
                 <p 
-                   className=' text-orange-100 font-bold text-2xl mb-5'>
+                   className=' text-slate-100 font-bold text-2xl mb-5'>
                     Gastado:{formatearPresupuesto(Gastado)}
                 </p>
             </div>

@@ -156,12 +156,16 @@ const ResetApp =  ()=>{
 
              
               <main>
+              {gastos.length > 0 ? 
+              
               
               <Filtro
-               Filtros={Filtros}
-               setFiltros={setFiltros}
-              
-              />
+              Filtros={Filtros}
+              setFiltros={setFiltros}
+             /> 
+             
+             : ""}
+
                 
                 <ListadoGastos
                 gastos={gastos}

@@ -6,8 +6,8 @@ const ListadoGastos = ({gastos, setgasto, eliminarGasto, Filtros, arrayFiltros})
          {
             Filtros ? (
             <>
-                <h2 className=" text-2xl">
-                    {arrayFiltros.length > 0  ? "Gastos Filtrados" : "No hay Gastos FIltrados"}</h2>
+                <h2 className="text-3xl text-orange-500 text-center capitalize font-bold">
+                    {arrayFiltros.length > 0  ? "Gastos Filtrados" : "No hay gastos de esta categoria"}</h2>
                     {arrayFiltros.map(gasto => {
                         return (
                             <Gasto
@@ -24,7 +24,9 @@ const ListadoGastos = ({gastos, setgasto, eliminarGasto, Filtros, arrayFiltros})
              ) : (
 
             <>
-                 <h2>{gastos.length > 0 ? "Gastos" : "No hay gastos" }</h2>
+                 <h2 
+                 className=" text-3xl text-orange-500 text-center capitalize font-bold mt-10">
+                  {gastos.length > 0 ? "Gastos" : "No hay gastos" }</h2>
                 {gastos.map(gasto => {
                     return(
                     <Gasto
