@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ body{
+  /* background-image: url(/src/IMG/Background_Image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  background-color: black;
+} 
+
+/* .flexboxAbuelo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.flexboxPapa{
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+} */
+
+
+
+.swipe-action__trailing {
+  background-color:#FF595E;
+  margin-bottom: 2rem;
+  color: antiquewhite;
+  font-weight: bolder;
+  
+} 
+
+.swipe-action__leading {
+  background-color:#F18F01;
+  margin-bottom: 2rem;
+  color: antiquewhite;
+  font-weight: bolder;
+  
+} 
+
+
+.swipeable-list .swipe-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  text-align: right;
+}
+
+@media only screen and (max-width: 390px) {
+  /* Estilos para pantallas con un ancho máximo de 600 píxeles */
+  .responisveForm{
+      
+       padding: 5px;
+     
+  }
+
+  .LabelForm{
+     font-size: xx-large;
+     color: wheat;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+}
